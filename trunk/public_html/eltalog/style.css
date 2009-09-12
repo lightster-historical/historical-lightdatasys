@@ -1,0 +1,295 @@
+.item-summary
+{
+}
+
+.item-summary h3
+{
+    margin: 0;
+    padding: 0;
+}
+
+.item-summary ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-summary li
+{
+    margin: 3px;
+    padding: 5px;
+}
+
+.item-summary dl
+{
+    margin: 0;
+    padding: 0;
+}
+
+.item-summary dt
+{
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left;
+    font-weight: bold;
+}
+
+.item-summary dd
+{
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.item-summary dd a
+{
+    text-decoration: none;
+    /*
+    border: dotted;
+    border-width: 0 0 1px 0;
+    */
+}
+
+
+
+
+
+.search-box
+{
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+.item ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item li
+{
+    margin: 3px;
+    padding: 5px;
+}
+
+.item dl
+{
+    margin: 0;
+    padding: 0;
+}
+
+.item dt
+{
+    margin: 0 10px 2px 0;
+    padding: 0;
+    width: 140px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+}
+
+.item dd
+{
+    margin: 2px 0 2px 155px;
+    padding: 0;
+}
+
+.instance-summary ul
+{
+}
+
+.instance-summary li
+{
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid #556677;
+    margin: 5px 3px;
+    padding: 0;
+}
+
+.instance-summary dl
+{
+    margin: 10px 5px;
+    padding: 0;
+}
+
+.instance-summary dt
+{
+}
+
+.instance-summary dd
+{
+}
+
+.location
+{
+    background: #bbccdd;
+    color: #000000;
+    padding: 3px 5px;
+}
+
+.location .code
+{
+    color: #666666;
+}
+
+.location .instance-nav
+{
+    float: right;
+}
+
+
+
+
+.filter
+{
+    background-color: #eeeeee;
+    border: 1px solid #666666;
+    margin: 0;
+    padding: 0;
+}
+
+.filter .current-filter
+{
+    background-color: #ffffff;
+    border: 1px solid #666666;
+    width: 250px;
+    margin: 5px;
+    padding: 0;
+}
+
+.filter .current-filter .title
+{
+    padding: 3px 6px;
+    background: #666666;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.filter .current-filter dl
+{
+    overflow: auto;
+    height: 150px;
+    margin: 0;
+}
+
+.filter .current-filter dt
+{
+    margin: 0;
+    padding: 2px 5px;
+    background: #bbccdd;
+    font-style: italic;
+}
+
+.filter .current-filter dd + dt
+{
+    border: solid #667788;
+    border-width: 2px 0 0 0;
+}
+
+.filter .current-filter dd
+{
+    margin: 0;
+    padding: 5px;
+}
+
+.filter .current-filter ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.filter .current-filter li
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-default .field input.item-add-field
+{
+    border: 1px solid #333333;
+    float: left;
+    clear: none;
+    text-decoration: none;
+}
+
+.item-add-field span
+{
+    /*display: none;*/
+}
+
+
+.field
+{
+    padding: 7px 0 0 0;
+}
+
+.field ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.field li
+{
+    position: relative;
+    clear: left;
+    float: left;
+}
+
+
+
+.field .value-div ul
+{
+    font-size: .9em;
+    display: block;
+}
+
+.field .value-div li
+{
+    padding: 3px;
+    position: static;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+.result-info-border
+{
+    background: #eeeeee;
+    border: 1px solid #999999;
+    padding: 0 5px;
+}
+
+.result-info-container
+{
+    padding: 5px 10px;
+}
+
+.page-numbers
+{
+    float: left;
+}
+
+.page-numbers ul
+{
+}
+
+.result-info
+{
+    float: right;
+}

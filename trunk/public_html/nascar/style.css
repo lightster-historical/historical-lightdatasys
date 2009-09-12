@@ -1,0 +1,115 @@
+.nascar-main
+{
+    margin: 5px 0;
+    /*border: solid #666666;
+    border-width: 1px 0 0 0;*/
+}
+
+.nascar-main h4
+{
+    border: solid #000000;
+    border-width: 0px 0 0 0;
+    padding-top: 4px;
+}
+
+.nascar-main .series-first, .nascar-main .series-middle, .nascar-main .series-last
+{
+    float: left;
+    width: 31.5%;
+}
+
+.nascar-main .series-first, .nascar-main .series-middle, .nascar-main .series-last
+
+.nascar-main .series-first, .nascar-main .series-middle, .nascar-main .series-last
+{
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.nascar-main .series-first
+{
+    padding-right: 1.2%;
+}
+
+.nascar-main .series-middle
+{
+    background: #dddddd;
+    padding-left: 1.2%;
+    padding-right: 1.2%;
+}
+
+.nascar-main .series-last
+{
+    clear: right;
+    padding-left: 1.2%;
+}
+
+
+ul.nascar-picks
+ {
+     margin: 0 auto;
+     padding: 0;
+     list-style-type: none;
+ }
+
+ .nascar-picks li
+ {
+     float: left;
+     margin: 2px;
+     padding: 0;
+     background: #000000;
+     width: 230px;
+     vertical-align: middle;
+ }
+
+ .nascar-picks dl
+ {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+ }
+
+ .nascar-picks dt
+ {
+     float: left;
+     margin: 8px 0;
+     padding: 0;
+     color: #ffffff;
+     font-size: 1.5em;
+     width: 100px;
+     vertical-align: middle;
+ }
+
+ .nascar-picks dt input
+ {
+     float: left;
+     margin: 1px 5px 0 7px;
+     padding: 0;
+ }
+
+ .nascar-picks label
+ {
+     display: block;
+ }
+
+ .nascar-picks dd
+ {
+     margin: 0 0 0 105px;
+     padding: 5px 7px;
+     height: 35px;
+     font-weight: bold;
+ }
+
+ table.fantasy-results
+ {
+ }
+
+ .fantasy-results th, .fantasy-results td
+ {
+     padding:   5px;
+ }
+
+ .fantasy-results td
+ {
+     text-align: center;
+ }
