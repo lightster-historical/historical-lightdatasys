@@ -3,7 +3,6 @@
 
 require_once PATH_LIB . 'com/lightdatasys/LdsNavIterator.php';
 require_once PATH_LIB . 'com/lightdatasys/LdsPermissions.php';
-require_once PATH_LIB . 'com/lightdatasys/help/Help.php';
 require_once PATH_LIB . 'com/mephex/core/Input.php';
 require_once PATH_LIB . 'com/mephex/core/SmtpMail.php';
 require_once PATH_LIB . 'com/mephex/db/MySQL.php';
