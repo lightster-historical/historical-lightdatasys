@@ -40,7 +40,7 @@ class IndexResponder extends NascarResponder
 
         $this->printHeader();
 
-        $this->cache = new MXT_ContentCache(PATH_LIB . 'com/lightdatasys/data/cache');
+        $this->cache = new MXT_ContentCache();
 
         $now = new Date();
         $today = new Date($now->format('q') . ' 00:00:00');

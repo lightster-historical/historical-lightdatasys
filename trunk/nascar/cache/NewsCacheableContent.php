@@ -49,7 +49,7 @@ class LDS_NewsCacheableContent implements MXT_CacheableContent
     public function getDirectory()
     {
         $series = $this->getSeriesArray();
-        return 'nascar/index.php/';
+        return 'com/lightdatasys/public_html/nascar/index.php';
     }
 
     public function getFileName()

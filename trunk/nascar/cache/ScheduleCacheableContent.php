@@ -48,7 +48,7 @@ class LDS_ScheduleCacheableContent implements MXT_CacheableContent
     public function getDirectory()
     {
         $series = $this->getSeriesArray();
-        return 'nascar/index.php/' . $series['keyname'];
+        return 'com/lightdatasys/public_html/nascar/index.php/' . $series['keyname'];
     }
 
     public function getFileName()
