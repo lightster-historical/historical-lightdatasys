@@ -272,7 +272,10 @@ class LDS_FantasyResults
                     $points = $result;
                 }
 
-                $this->fantasyPoints[$raceId][$userId] = $rank;
+                if($points > 0)
+                    $this->fantasyPoints[$raceId][$userId] = $rank;
+                else 
+                    $this->fantasyPoints[$raceId][$userId] = -1;
             }
 
             $max = 100;
@@ -280,7 +283,7 @@ class LDS_FantasyResults
             {
                 //*
                 $pts = 0;
-                if($rank == 1 && $points <= 0)
+                if($rank <= 0)
                     $pts = 185 - $max;
                 else if($rank == 1)
                     $pts = 185;
