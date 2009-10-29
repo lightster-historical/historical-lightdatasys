@@ -2,8 +2,6 @@
 
 
 require_once PATH_LIB . 'com/lightdatasys/LightDataSysResponder.php';
-require_once PATH_LIB . 'com/lightdatasys/gui/Selector.php';
-require_once PATH_LIB . 'com/lightdatasys/gui/SelectorMenu.php';
 
 
 class NflData
